@@ -1,0 +1,2 @@
+O programa deve contar o número de palavras no arquivo texto.txt e exibir o resultado no terminal
+ banana, laranja, macã, goiaba, goiaba. número, programa, programa.
