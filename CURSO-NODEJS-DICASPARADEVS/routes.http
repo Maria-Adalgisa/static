@@ -1,25 +1,29 @@
 POST http://localhost:3332/videos
-Content-Type: application/json
+Content-Type:application/json           
 //Esse método é responsável por criar um novo vídeo
-{
+
+    {
 
     "title": "Video node",
     "description": "Esse é o primeiro vídeo do canal",
     "duration": 180
-}
+    }
 
 ###
 GET http://localhost:3332/videos
 //Esse método é responsável por listar todos os vídeos
-
 ###
 
-PUT http://localhost:3332/videos/
-Content-Type: application/json
+PUT http://localhost:3332/videos/c0ef9bd1-05ab-4d38-9998-2d3698150b11
+Content-Type:application/json
 //Esse método é responsável por atualizar um vídeo
-{
+    {
 
     "title": "Video 02",
     "description": "Esse é o segundo vídeo do canal",
     "duration": 120
-}
+    }
+
+###
+
+DELETE http://localhost:3332/videos/84672857-33db-4cfc-a0f8-d18ef2502bcd
